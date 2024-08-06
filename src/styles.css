@@ -1,0 +1,252 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, p, a{
+    margin: 0;
+}
+
+
+section{
+    margin: 50px auto;
+}
+
+.title{
+    text-align: center;
+    display: block;
+}
+
+.title > h1{
+    color: #522E91;
+    font-weight: 600;
+}
+
+.title > span{
+    border-bottom: solid 4px #7D62AA;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.textDescription{
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.textDescription p{
+    text-align: center;
+    font-weight: 500;
+    color: #656565;
+}
+
+.options{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-around;
+}
+
+.contentOption{
+    margin: 0px 10px;
+    width: 33.33%;
+    padding: 30px 15px;
+    -webkit-box-shadow: 1px 3px 8px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow:13px 3px 8px -5px rgba(0,0,0,0.63);
+    box-shadow: 1px 3px 8px -5px rgba(0,0,0,0.63);
+    border-radius: 4px;
+    border: solid 1px #dbdbdb;
+    text-align: center;
+    &:hover{
+        color: #7D62AA;
+        border: solid 1px #7D62AA;
+    }
+    &:hover > a{
+        color: #7D62AA;
+    }
+}
+
+.options:nth-child(2) .contentOption{
+    margin: 0px 10px;
+    width: 50%;
+    padding: 30px 20px;
+    -webkit-box-shadow: 1px 3px 8px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow:13px 3px 8px -5px rgba(0,0,0,0.63);
+    box-shadow: 1px 3px 8px -5px rgba(0,0,0,0.63);
+    border-radius: 4px;
+    border: solid 1px #dbdbdb;
+    text-align: center;
+    &:hover{
+        color: #7D62AA;
+        border: solid 1px #7D62AA;
+    }
+    &:hover > a{
+        color: #7D62AA;
+    }
+}
+
+
+.contentOption a{
+    text-decoration: none;
+    color: #656565;
+    font-size: 20px;
+    
+        
+}
+
+.contentOption a > span{
+    font-size: 50px;
+}
+
+.pleca{
+    background: #522E91;
+    padding: 15px 0px;
+    border-radius: 50px;
+}
+
+
+.pleca img{
+    margin-left: 50px;
+}
+
+.head{
+    margin-top: 20px;
+}
+
+footer{
+    margin: 50px 0px 0px 0px ;
+}
+
+.futer{
+    background: #f2f2f2;
+    color: #522E91;
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+    border-radius: 20px 20px 0px 0px ;
+    .contentFoo{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        img{
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+nav{
+    margin-top: 30px;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    li{
+        margin: 0px 10px;
+        a{
+            color: #656565;
+            text-decoration: none;
+            font-weight: 600;
+            &:hover{
+                color: #522E91;
+            }
+        }
+    }
+}
+
+.redes{
+    margin-top: 30px;
+    p{
+        max-width: 700px;
+        margin: 30px auto;
+        text-align: center;
+        color: #656565;
+    }
+}
+
+.redesList{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    li{
+        margin: 0px 10px;
+        a{
+            color: #522E91;
+            padding: 20px;
+            border-radius: 50px;
+            border: solid 1px #522E91;
+            svg{
+                fill: #522E91;
+                width: 20px;
+                height: 20px;
+                
+            }
+            &:hover{
+                background: #522E91;
+                &:hover > svg{
+                    fill: #f2f2f2;
+                }
+            }
+        }
+    }
+}
+
+.input-group > small{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btnMorado{
+    background: #522E91 !important;
+    border: #522E91 solid 1px !important;
+}
+
+.modal-title{
+    color: #522E91 !important;
+    font-weight: 500;
+}
+
+.formUno h3{
+    color: #522E91;
+    margin-bottom: 20px;
+}
+
+.tablas{
+    text-align: center;
+    border: #522E91;
+}
+
+.enviado{
+    background: rgb(60, 156, 60);
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: #f2f2f2;
+    font-size: 14px;
+}
+
+.cancelado{
+    background: rgb(174, 0, 0);
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: #f2f2f2;
+    font-size: 14px;
+}
+
+.pendiente{
+    background: rgb(203, 196, 2);
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: #f2f2f2;
+    font-size: 14px;
+}
